@@ -21,4 +21,4 @@ jobs:
         run: npm ci # Installs dependencies locked in the package-lock.json file
       
       - name: Start Execution
-        run: npm run start
+        run: npm run dev

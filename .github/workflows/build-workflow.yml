@@ -2,6 +2,7 @@ name: NextJS Build Script Workflow
 
 # When will the workflow be executed
 on:
+  workflow_dispatch:
   workflow_run:
     workflows: ["NextJS Lint Script Workflow"]  # Name of the test workflow
     types:
